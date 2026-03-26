@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adaptam</title>
+</head>
+<body>
+    <h1>Imagens que se adaptam</h1>
+    <p>Esta é uma página que demonstra como imagens podem ser feitas para se adaptarem a diferentes tamanhos de tela.</p>
+    <picture>
+        <source media="(max-width:721px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1021px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto grande">
+    </picture>
+</body>
+</html>
